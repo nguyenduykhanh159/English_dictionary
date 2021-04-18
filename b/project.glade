@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="window">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">E-V Dictionary</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="fixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkEntry" id="entry">
+            <property name="width_request">300</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <signal name="changed" handler="on_entry_changed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_search">
+            <property name="label">gtk-find</property>
+            <property name="width_request">85</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_stock">True</property>
+            <property name="always_show_image">True</property>
+            <signal name="clicked" handler="on_button_search_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">318</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_mean">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">
+</property>
+          </object>
+          <packing>
+            <property name="x">29</property>
+            <property name="y">109</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_word">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="y">53</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_suggest">
+            <property name="label" translatable="yes">Suggest</property>
+            <property name="width_request">33</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_suggest_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">316</property>
+            <property name="y">41</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_exit">
+            <property name="label">gtk-close</property>
+            <property name="width_request">46</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_stock">True</property>
+            <property name="always_show_image">True</property>
+          </object>
+          <packing>
+            <property name="x">736</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_no_exist">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">137</property>
+            <property name="y">143</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_suggest">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="selectable">True</property>
+          </object>
+          <packing>
+            <property name="y">228</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_delete">
+            <property name="label">gtk-delete</property>
+            <property name="width_request">82</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_stock">True</property>
+            <property name="always_show_image">True</property>
+            <signal name="clicked" handler="on_button_delete_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">404</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_delete">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">145</property>
+            <property name="y">126</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_suggest1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">121</property>
+            <property name="y">107</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_suggest2">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">121</property>
+            <property name="y">201</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_suggest3">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">121</property>
+            <property name="y">296</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label_cant_search">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="x">137</property>
+            <property name="y">143</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_history">
+            <property name="label" translatable="yes">History</property>
+            <property name="width_request">28</property>
+            <property name="height_request">39</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button_history_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">404</property>
+            <property name="y">41</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

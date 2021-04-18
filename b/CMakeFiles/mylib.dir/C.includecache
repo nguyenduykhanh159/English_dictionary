@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/cmake-btree-master/inc/bc.h
+limits.h
+-
+
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/cmake-btree-master/inc/bt.h
+stdio.h
+-
+bc.h
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/cmake-btree-master/inc/bc.h
+
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/cmake-btree-master/inc/btree.h
+bt.h
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/cmake-btree-master/inc/bt.h
+
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/tools.c
+tools.h
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/tools.h
+
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/tools.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+cmake-btree-master/inc/btree.h
+/home/xuantruong/F4_Project (1)/F4_Project/cmake-gtk-master/mylib/cmake-btree-master/inc/btree.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylib.a  CMakeFiles/mylib.dir/create_dic.c.o CMakeFiles/mylib.dir/tools.c.o
+/usr/bin/ranlib libmylib.a
